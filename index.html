@@ -13,94 +13,99 @@
 </head>
 
 <body>
-  <!-- navbar section1 -->
-  <div class="section1">
-    <div class="nav">
-      <div class="firstnav">
-        <a href="#">GP<span class="span0">.</span>
-        </a>
-      </div>
-      <div class="secondnav">
-        <a href="#"><span class="span1">Home</span></a>
-        <a href="#"><span class="span2">About</span></a>
-        <a href="#"><span class="span2">Services</span></a>
-        <a href="#"><span class="span2">portfolio</span></a>
-        <a href="#"><span class="span2">Team</span></a>
+  <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">GP<span class="text-warning">.</span></a>
 
+      <!-- Hamburger Toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="dropdown">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+      <div class="collapse navbar-collapse justify-content-between" id="mainNavbar">
+        <!-- Nav Links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
 
-            <!-- Deep Dropdown -->
-            <li class="dropdown-submenu">
-              <a class="dropdown-item dropdown-toggle" href="#">Deep dropdown</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Submenu 1</a></li>
-                <li><a class="dropdown-item" href="#">Submenu 2</a></li>
-                <li><a class="dropdown-item" href="#">Submenu 3</a></li>
-                <li><a class="dropdown-item" href="#">Submenu 4</a></li>
-                <li><a class="dropdown-item" href="#">Submenu 5</a></li>
-              </ul>
-            </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Deep dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Submenu 1</a></li>
+                  <li><a class="dropdown-item" href="#">Submenu 2</a></li>
+                  <li><a class="dropdown-item" href="#">Submenu 3</a></li>
+                  <li><a class="dropdown-item" href="#">Submenu 4</a></li>
+                  <li><a class="dropdown-item" href="#">Submenu 5</a></li>
+                </ul>
+              </li>
+              <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
 
-            <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
-            <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
-            <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
-          </ul>
-        </div>
-        <a href="#"><span class="span2">Contact</span></a>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
 
-
-      </div>
-      <div class="thirdnav">
-        <button><a href="#">Get Started</a></button>
-      </div>
-    </div>
-
-
-    <!-- matter body -->
-    <div class="s1Matter-body">
-      <div class="s1content">
-        <h1>&nbsp;&nbsp;Powerful Digital <br> Solutions With GP<span class="span3">.</span></h1>
-        <p>We are team of talented digital marketers</p>
+        <!-- Get Started Button -->
+        <a class="btn btn-outline-warning" href="#">Get Started</a>
       </div>
     </div>
+  </nav>
 
-    <!-- section1  boxes -->
+
+
+  <!-- matter body -->
+  <!-- HERO Section -->
+  <div class="hero-section">
+    <div class="hero-content">
+      <div class="hero-matter">
+        <h1 class="display-4">Powerful Digital <br> Solutions With <span class="text-warning">GP.</span></h1>
+        <p class="lead">We are team of talented digital marketers</p>
+      </div>
+      <!-- <a href="#" class="btn btn-warning px-4 py-2">Get Started</a> -->
+    </div>
+
+    <!-- Section Boxes -->
     <div class="s1boxes">
       <div class="box1">
         <div class="boxMatter">
           <i class="bi bi-binoculars fs-1"></i>
-          <p>Lorem Ipsum</p>
+          <p class="fw-semibold">Lorem Ipsum</p>
         </div>
       </div>
       <div class="box1">
         <div class="boxMatter">
           <i class="bi bi-dpad-fill fs-1"></i>
-          <p>Dolor Sitema</p>
+          <p class="fw-semibold">Dolor Sitema</p>
         </div>
       </div>
       <div class="box1">
         <div class="boxMatter">
           <i class="bi bi-shield-plus fs-1"></i>
-          <p>Sedare Perspiciatis</p>
+          <p class="fw-semibold">Sedare Perspiciatis</p>
         </div>
       </div>
       <div class="box1">
         <div class="boxMatter">
           <i class="bi bi-list-task fs-1"></i>
-          <p>Magni Dolores</p>
+          <p class="fw-semibold">Magni Dolores</p>
         </div>
       </div>
       <div class="box1">
         <div class="boxMatter">
           <i class="bi bi-gem fs-1"></i>
-          <p>Nemos Enimade</p>
+          <p class="fw-semibold">Nemos Enimade</p>
         </div>
       </div>
     </div>
@@ -212,7 +217,7 @@
 
   <section>
     <div class="s5Matter">
-      <p>SERVICES &nbsp;&nbsp;&nbsp; <span class="span4">______________</span></p>
+      <p>SERVICES &nbsp;&nbsp;&nbsp; <span class="span4">&nbsp;&nbsp;______________</span></p>
       <h1>CHECK OUR SERVICES </h1>
     </div>
     <div class="section5">
@@ -274,10 +279,22 @@
   </section>
 
 
+  <!-- section 6 -->
+  <div class="section6">
+    <div class="s6">
+      <h2>Call To Action</h2>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <button><a href="">Call To Action</a></button>
+    </div>
+
+  </div>
+
   <!-- section 7 -->
   <section>
     <div class="s7Matter">
-      <p>PORTFOLIO <span class="span4">______________</span></p>
+      <p>PORTFOLIO <span class="span4">&nbsp;&nbsp;______________</span></p>
       <h1>CHECK OUR PORTFOLIO &nbsp;&nbsp;&nbsp;</h1>
     </div>
     <div class="section7">
@@ -289,8 +306,6 @@
         <div class="page">Card</div>
         <div class="page">Web</div>
       </div>
-
-
 
     </div>
     <!-- grid images -->
@@ -425,7 +440,6 @@
 
 
   <!-- section8 -->
-  <section>
     <div class="section8">
       <div class="s8img">
         <img src="./images/img3.jpg" alt="">
@@ -461,97 +475,304 @@
         </div>
       </div>
     </div>
+  <!-- section 9 -->
 
-    <!-- section 9 -->
+  <section>
+    <div class="s9img">
+      <div class="section9 container py-5">
+        <h2 class="text-center mb-4">What Our Clients Say</h2>
 
-<section>
-<div class="s9img">
-    <div class="section9 container py-5">
-    <h2 class="text-center mb-4">What Our Clients Say</h2>
+        <div id="peopleCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
 
-    <div id="peopleCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="d-flex flex-column align-items-center text-center">
+                <img src="./images/p1.jpg" class="profile-pic rounded-circle mb-3" alt="Person 1">
+                <h5>John Doe</h5>
+                <p class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </p>
+                <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, nemo.</p>
+              </div>
+            </div>
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="d-flex flex-column align-items-center text-center">
-            <img src="./images/p1.jpg" class="profile-pic rounded-circle mb-3" alt="Person 1">
-            <h5>John Doe</h5>
-            <p class="text-warning">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-half"></i>
-            </p>
-            <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, nemo.</p>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center text-center">
+                <img src="./images/p2.jpg" class="profile-pic rounded-circle mb-3" alt="Person 2">
+                <h5>Jane Smith</h5>
+                <p class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </p>
+                <p class="w-75">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center text-center">
+                <img src="./images/p3.jpg" class="profile-pic rounded-circle mb-3" alt="Person 3">
+                <h5>Alex Johnson</h5>
+                <p class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                </p>
+                <p class="w-75">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center text-center">
+                <img src="./images/p4.jpg" class="profile-pic rounded-circle mb-2" alt="Person 4">
+                <h5>Linda Parker</h5>
+                <p class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </p>
+                <p class="w-75">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+              </div>
+            </div>
+
           </div>
-        </div>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="d-flex flex-column align-items-center text-center">
-            <img src="./images/p2.jpg" class="profile-pic rounded-circle mb-3"  alt="Person 2">
-            <h5>Jane Smith</h5>
-            <p class="text-warning">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star"></i>
-              <i class="bi bi-star"></i>
-            </p>
-            <p class="w-75">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#peopleCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#peopleCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="d-flex flex-column align-items-center text-center">
-            <img src="./images/p3.jpg" class="profile-pic rounded-circle mb-3"  alt="Person 3">
-            <h5>Alex Johnson</h5>
-            <p class="text-warning">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star"></i>
-            </p>
-            <p class="w-75">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-          </div>
-        </div>
-
-        <!-- Slide 4 -->
-        <div class="carousel-item">
-          <div class="d-flex flex-column align-items-center text-center">
-            <img src="./images/p4.jpg" class="profile-pic rounded-circle mb-2"  alt="Person 4">
-            <h5>Linda Parker</h5>
-            <p class="text-warning">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-half"></i>
-              <i class="bi bi-star"></i>
-              <i class="bi bi-star"></i>
-            </p>
-            <p class="w-75">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-          </div>
-        </div>
-
       </div>
-
-      <!-- Controls -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#peopleCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#peopleCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
     </div>
-  </div>
-</div>
-</section>
-
   </section>
 
+
+
+  <!-- section 10 -->
+  <div class="s10Matter">
+    <p>TEAM <span class="span4">&nbsp;&nbsp;______________</span></p>
+    <h1>OUR TEAM &nbsp;&nbsp;&nbsp;</h1>
+  </div>
+  <div class="section10">
+
+
+    <div class="s10cards">
+      <div class="s10card">
+        <div class="s10img">
+          <img src="./images/p1.jpg" alt="">
+          <div class="s10socials">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+        <div class="s10cardMatter">
+          <p>Walter White</p>
+          <p>Chief Executive Officer</p>
+        </div>
+      </div>
+
+      <div class="s10card">
+        <div class="s10img">
+          <img src="./images/p2.jpg" alt="">
+          <div class="s10socials">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+        <div class="s10cardMatter">
+          <p>Walter White</p>
+          <p>Chief Executive Officer</p>
+        </div>
+      </div>
+      <div class="s10card">
+        <div class="s10img">
+          <img src="./images/p3.jpg" alt="">
+          <div class="s10socials">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+        <div class="s10cardMatter">
+          <p>Walter White</p>
+          <p>Chief Executive Officer</p>
+        </div>
+      </div>
+      <div class="s10card">
+        <div class="s10img">
+          <img src="./images/p4.jpg" alt="">
+          <div class="s10socials">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+        <div class="s10cardMatter">
+          <p>Walter White</p>
+          <p>Chief Executive Officer</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- section 11 -->
+  <div class="s11Matter">
+    <p>CONTACT<span class="span4">&nbsp;&nbsp;______________</span></p>
+    <h1>CONTACT US &nbsp;&nbsp;&nbsp;</h1>
+  </div>
+
+  <div class="s11Contact">
+    <div class="adressBody">
+      <div class="address">
+        <i class="bi bi-geo-alt fs-3"></i>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A108 Adam Street, New York, NY 
+          <span class="picode">535022</span> 
+        </p>
+      </div>
+      <div class="address">
+        <i class="bi bi-telephone-forward fs-3"></i>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Call Us <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1 5589 55488 55
+        </p>
+      </div>
+      <div class="address">
+        <i class="bi bi-mailbox-flag fs-3"></i>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email Us <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@example.com
+        </p>
+      </div>
+    </div>
+
+    <div class="s11ContactForm">
+      <div class="s11names">
+        <label for="name"></label>
+        <input type="text" name="user" id="name" placeholder="Enter Your Name" required> <br>
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" readonly> <br>
+
+      </div>
+      <div class="s11names2">
+        <label for="subject"></label>
+        <input type="text" name="sub" id="subject" placeholder="Subject">
+        <br>
+        <br>
+        <textarea name="msg" id="" placeholder="Message"></textarea>
+      </div>
+      <div class="s11Button">
+        <button><a href="">Submit</a></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- section 12 -->
+  <footer class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="https://themewagon.github.io/gp/index.html" class="logo d-flex align-items-center">
+              <span class="sitename">GP</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="https://themewagon.github.io/gp/"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://themewagon.github.io/gp/"><i class="bi bi-facebook"></i></a>
+              <a href="https://themewagon.github.io/gp/"><i class="bi bi-instagram"></i></a>
+              <a href="https://themewagon.github.io/gp/"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Terms of service</a>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Web Development</a>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Product
+                  Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://themewagon.github.io/gp/#"> Graphic Design</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="https://themewagon.github.io/gp/forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form">
+                <input type="email" class="subsInput" name="email" fdprocessedid="851baq"><input class="subButton"
+                  type="submit" value="Subscribe" fdprocessedid="3yyybq">
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
+            href="https://themewagon.com/">ThemeWagon</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
